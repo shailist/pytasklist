@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "tasklist"
+name = "pytasklist"
 version = "0.1.0"
 description = ""
 authors = ["shailist <shailist2000@gmail.com>"]

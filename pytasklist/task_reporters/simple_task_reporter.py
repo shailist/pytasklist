@@ -1,7 +1,7 @@
 from typing import Iterable
 
-from tasklist.task_reporters.base_task_reporter import BaseTaskReporter
-from tasklist.task_result import TaskResult, TaskSuccess, TaskFailure
+from .base_task_reporter import BaseTaskReporter
+from ..task_result import TaskResult, TaskSuccess, TaskFailure
 
 
 class SimpleTaskReporter(BaseTaskReporter):

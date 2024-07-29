@@ -1,8 +1,8 @@
 from typing import Iterable, Literal
 import rich.progress
 
-from tasklist.task_reporters.base_task_reporter import BaseTaskReporter
-from tasklist.task_result import TaskResult, TaskSuccess, TaskFailure
+from .base_task_reporter import BaseTaskReporter
+from ..task_result import TaskResult, TaskSuccess, TaskFailure
 
 
 class CompletedTasksColumn(rich.progress.ProgressColumn):
